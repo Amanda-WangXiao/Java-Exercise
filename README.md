@@ -1,8 +1,11 @@
-# Java Swing Exercise  
-   Some small programs which I wrote when I first learned Java Swing framework.  
-   一些我初学Java Swing的时候写的小程序。  
-
+# Java Exercise    
+   ...  
+  
 # Introduction  
+## JDBC  
+## Servlet  
+## MyBatis  
+## Swing  
 1. "accountcheck" gives an example of checking whether the username match the password.  
    （给出了检测用户名与密码是否匹配的例子）  
 2. "caculate" shows a simple caculator.  
