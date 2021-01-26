@@ -1,0 +1,3 @@
+com\mybatis\UserDao.class
+com\mybatis\dao\entity\User.class
+com\mybatis\util\MySqlSessionFactory.class
