@@ -16,11 +16,20 @@
 <form action="/params/saveAccount" method="post">
     姓名: <input type="text" name="username"><br/>
     金额: <input type="text" name="money"><br/>
-<%--    密码: <input type="text" name="user.password"><br/>--%>
-<%--    年龄: <input type="text" name="user.age"><br/>--%>
+    密码: <input type="text" name="user.password"><br/>
+    年龄: <input type="text" name="user.age"><br/>
 
         日期: <input type="text" name="date"><br/>
     <input type="submit" value="提交">
+</form>
+
+<a href="/params/servletGet">Get Servlet API</a><br/>
+
+<a href="/params/updateUser">Update User</a><br/>
+
+<form action="/params/upload" method="post" enctype="multipart/form-data">
+    选择文件: <input type="file" name="upload"><br/>
+    <input type="submit" value="upload"><br/>
 </form>
 
 </body>

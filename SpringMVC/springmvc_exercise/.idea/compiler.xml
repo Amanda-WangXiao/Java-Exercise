@@ -9,5 +9,8 @@
         <module name="springmvc_exercise" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springmvc_daily" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
