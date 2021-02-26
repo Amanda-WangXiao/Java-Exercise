@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Account implements Serializable {
     private int id;
-    private String name;
+    private String username;
     private int age;
 
     public int getId() {
@@ -15,12 +15,12 @@ public class Account implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public int getAge() {
@@ -31,5 +31,12 @@ public class Account implements Serializable {
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
